@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SwIAV Dynamics of Infection" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SwIAV Dynamics of Infection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SwIAV Dynamics of Infection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="lib\libmysqlclient.a" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="Change_Table.cpp" />
+		<Unit filename="Change_Table.h" />
+		<Unit filename="Corridor_Pression.cpp" />
+		<Unit filename="Corridor_Pression.h" />
+		<Unit filename="Culling_Sows.cpp" />
+		<Unit filename="Culling_Sows.h" />
+		<Unit filename="Event_Table.cpp" />
+		<Unit filename="Event_Table.h" />
+		<Unit filename="Farrowing_Room_Program.cpp" />
+		<Unit filename="Farrowing_Room_Program.h" />
+		<Unit filename="Initialize.cpp" />
+		<Unit filename="Initialize.h" />
+		<Unit filename="Parameters.cpp" />
+		<Unit filename="Parameters.h" />
+		<Unit filename="Piglets_MSIRS_Program.cpp" />
+		<Unit filename="Piglets_MSIRS_Program.h" />
+		<Unit filename="Recuperation_Database.cpp" />
+		<Unit filename="Recuperation_Database.h" />
+		<Unit filename="Sows_SIRS_MainProgram.cpp" />
+		<Unit filename="Sows_SIRS_MainProgram.h" />
+		<Unit filename="Usual_Fonctions.cpp" />
+		<Unit filename="Usual_Fonctions.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
